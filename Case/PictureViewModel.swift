@@ -8,7 +8,7 @@ class pictureViewModel: ObservableObject {
     }
     
     func loadData() {
-        let key = "_9Rf-nU-mfy8TIq8hOggEbhfzR1bXNpDXgv-46Ty6TI"
+        let key = "jmuFh_aKdWfkJ7oIEPD-NfLJyHntuEOavzVKqhGWl-k"
         let url = "https://api.unsplash.com/photos/random/?count=30&client_id=\(key)"
         let session = URLSession(configuration: .default)
         
